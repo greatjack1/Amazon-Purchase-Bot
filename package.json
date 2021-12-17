@@ -1,0 +1,38 @@
+{
+  "name": "sbio-CHANGEME",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": "14.15.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node -r source-map-support/register dist/index",
+    "test": "jest --detectOpenHandles --verbose",
+    "lint": "eslint 'src/**/*.{js,ts,tsx}' --quiet",
+    "cleanup": "rm -rf dist",
+    "update": "git pull && yarn build"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "^14.14.22",
+    "@types/tough-cookie": "^4.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "@typescript-eslint/parser": "^4.14.1",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "prettier": "2.2.1",
+    "typescript": "4.1.3"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^8.2.0",
+    "jest": "^27.0.4",
+    "tough-cookie": "^4.0.0",
+    "ts-jest": "^27.1.0",
+    "zlib": "^1.0.5"
+  }
+}
