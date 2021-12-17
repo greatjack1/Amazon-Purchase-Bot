@@ -32,6 +32,10 @@ npm install --global yarn
 
 ### Build & run project
 
+Note: Before running the project, you have to login to amazon and then copy over all the cookies in your browser from amazon.com into the loginCookies array in the utilities/requests.ts file.
+
+
+
 1. Run `yarn build` to compile TS to `dist/`
 2. Run `yarn start` to execute `src/index.ts` (program entry-point)
 
