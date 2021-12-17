@@ -6,7 +6,7 @@ This project was done as a proof of concept that you can build a purchase bot an
 
 Feel free to use this if you need a PS5 or another hard to find item.
 
-I have strong reasons to believe, but I cannot confirm that this is the same strategy that other bots are using for their purchase bot.
+I have strong reasons to believe, but I cannot confirm that this is the same strategy that other bots are using for their purchase bots.
 
 ## Environment Setup
 
